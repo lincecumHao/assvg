@@ -56,7 +56,7 @@ SVG_DEFAULT_FONT_SIZE = 0.04        # font-size in in percentage of svg viewport
 class SVGLib:
     def __init__(self,gp=None,argv=None):
         # set locale, what a mess in ArcGIS :(
-        locale.setlocale(locale.LC_ALL, "english")
+        locale.setlocale(locale.LC_ALL, "Chinese")
 
         """ set globals """
         self.prefix = "assvg"
